@@ -55,6 +55,46 @@ table {
   border-spacing: 0;
 }
 
+/* nav bar */
+
+nav {
+  font-size: 0.8em;
+  position: absolute;
+  background: rgb(147, 147, 148);
+  background: linear-gradient(180deg, rgba(147, 147, 148, 1) 0%, rgba(52, 52, 52, 1) 50%, rgba(164, 164, 164, 1) 100%);
+  width: 76.5em;
+  height: 3em;
+  border-radius: 0.3em;
+  left: 12em;
+  top: 5.4em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1em 2.85em;
+  border-left: 1px solid black;
+}
+
+nav a:first-child {
+  padding-left: 3.5em;
+  border: none;
+}
+
+nav input {
+  width: 7em;
+  height: 0.8em;
+  border-radius: 0.4em;
+  background-color: #e2e2e2;
+}
+
+nav a:visited {
+  color: white;
+}
+
 /* main */
 
 main {
@@ -71,6 +111,7 @@ h1 {
   font-weight: 100;
   text-align: center;
   padding: 2.6em 0 0.2em;
+  letter-spacing: -0.1em;
 }
 
 h2 {
@@ -78,9 +119,10 @@ h2 {
   font-size: 2em;
   font-weight: 100;
   text-align: center;
-  width: 31em;
+  width: 26em;
   line-height: 1.2em;
   margin: 0 auto;
+  letter-spacing: -0.1em;
 }
 
 h3 {

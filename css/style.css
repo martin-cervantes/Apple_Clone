@@ -60,8 +60,8 @@ table {
 nav {
   font-size: 0.8em;
   position: absolute;
-  background: rgb(147, 147, 148);
-  background: linear-gradient(180deg, rgba(147, 147, 148, 1) 0%, rgba(52, 52, 52, 1) 50%, rgba(164, 164, 164, 1) 100%);
+  background: rgb(116, 116, 116);
+  background: linear-gradient(180deg, rgba(116, 116, 116, 1) 0%, rgba(94, 94, 94, 1) 50%, rgba(143, 143, 143, 1) 100%);
   width: 76.5em;
   height: 3em;
   border-radius: 0.3em;

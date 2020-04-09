@@ -1,6 +1,6 @@
 # Project Name
 
-    Project brief description
+    This project consists of building a webpage using images as a background and adding gradients to elements. The goal is to make a clone of an old version of the Apple webpage for learning purpose.
 
 ![screenshot](./screenshot.png)
 
@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://mcervantes71.github.io//index.html)
+[Live Demo Link](https://mcervantes71.github.io/Apple_Clone/index.html)
 
 ## Getting Started
 

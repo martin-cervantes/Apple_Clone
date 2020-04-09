@@ -45,11 +45,12 @@ nav {
   width: 76.5em;
   height: 3em;
   border-radius: 0.3em;
-  left: 12em;
+  left: 50%;
   top: 5.4em;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: -38.25em;
 }
 
 nav a {
@@ -85,7 +86,7 @@ nav a:visited {
 main {
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
-  background-size: 90em auto;
+  background-size: 91em auto;
   background-position: center bottom;
   height: 33.5em;
 }
@@ -122,6 +123,7 @@ h3 {
 aside {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 /* footer */

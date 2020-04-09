@@ -59,6 +59,11 @@ nav a {
   border-left: 1px solid #585858;
 }
 
+footer a {
+  color: #08c;
+  text-decoration: none;
+}
+
 nav a:first-child {
   padding-left: 3.5em;
   border: none;
@@ -135,11 +140,6 @@ footer div {
 
 footer img {
   width: 1.6em;
-}
-
-footer a {
-  color: #08c;
-  text-decoration: none;
 }
 
 footer a:visited {

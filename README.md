@@ -1,6 +1,7 @@
 # Project Name
 
-    This project consists of building a webpage using images as a background and adding gradients to elements. The goal is to make a clone of an old version of the Apple webpage for learning purpose.
+    This project consists of building a webpage using images as a background and adding gradients to elements.
+    The goal is to make a clone of an old version of the Apple webpage for learning purpose.
 
 ![screenshot](./screenshot.png)
 

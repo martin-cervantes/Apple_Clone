@@ -46,7 +46,7 @@ nav {
   height: 3em;
   border-radius: 0.3em;
   left: 50%;
-  top: 5.4em;
+  top: 6.6em;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -67,14 +67,36 @@ footer a {
 
 nav a:first-child {
   padding-left: 3.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   border: none;
 }
 
+nav a:nth-child(8) {
+  padding-right: 2em;
+  border-right: 1px solid #585858;
+}
+
 nav input {
-  width: 7em;
-  height: 0.8em;
+  color: white;
+  width: 6.5em;
+  height: 0.9em;
   border-radius: 0.4em;
-  background-color: #848484;
+  border-color: #585858;
+  margin: 0 0.6em;
+  background: none;
+}
+
+.fa-search {
+  position: absolute;
+  color: white;
+  top: 1.05em;
+  left: 68em;
+}
+
+nav a:hover {
+  background: rgb(18, 17, 17);
+  background: radial-gradient(circle, rgba(18, 17, 17, 1) 0%, rgba(94, 94, 94, 1) 99.9%, rgba(143, 143, 143, 1) 100%);
 }
 
 nav a:visited {
@@ -89,6 +111,10 @@ main {
   background-size: 91em auto;
   background-position: center bottom;
   height: 33.5em;
+}
+
+main:hover {
+  cursor: pointer;
 }
 
 h1 {
@@ -116,7 +142,11 @@ h3 {
   font-size: 1.3em;
   font-weight: 100;
   text-align: center;
-  padding: 2em 0;
+  margin: 2em auto;
+}
+
+h3:hover {
+  text-decoration: underline;
 }
 
 /* aside */
@@ -142,6 +172,10 @@ footer div {
 
 footer img {
   width: 1.6em;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 footer a:visited {

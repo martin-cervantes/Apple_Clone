@@ -3,19 +3,17 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+h1,
+h2,
+h3,
+a,
+img,
+aside,
+footer,
+nav {
   margin: 0;
   padding: 0;
   border: 0;
@@ -26,37 +24,169 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+aside,
+footer,
+nav {
   display: block;
 }
 
 body {
   line-height: 1;
+  font-family: sans-serif, arial;
 }
 
-ol, ul {
-  list-style: none;
+/* nav bar */
+
+nav {
+  font-size: 0.8em;
+  position: absolute;
+  background: rgb(116, 116, 116);
+  background: linear-gradient(180deg, rgba(116, 116, 116, 1) 0%, rgba(94, 94, 94, 1) 50%, rgba(143, 143, 143, 1) 100%);
+  width: 76.5em;
+  height: 3em;
+  border-radius: 0.3em;
+  left: 50%;
+  top: 6.6em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -38.25em;
 }
 
-blockquote, q {
-  quotes: none;
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1em 2.85em;
+  border-left: 1px solid #585858;
 }
 
-blockquote::before, blockquote::after,
-q:before, q::after {
-  content: '';
-  content: none;
+footer a {
+  color: #08c;
+  text-decoration: none;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+nav a:first-child {
+  padding-left: 3.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border: none;
 }
 
-/* YOUR CODE HERE */
+nav a:nth-child(8) {
+  padding-right: 2em;
+  border-right: 1px solid #585858;
+}
 
+nav input {
+  color: white;
+  width: 6.5em;
+  height: 0.9em;
+  border-radius: 0.4em;
+  border-color: #585858;
+  margin: 0 0.6em;
+  background: none;
+}
 
-body {
-  background-color: red;
+.fa-search {
+  position: absolute;
+  color: white;
+  top: 1.05em;
+  left: 68em;
+}
+
+nav a:hover {
+  background: rgb(18, 17, 17);
+  background: radial-gradient(circle, rgba(18, 17, 17, 1) 0%, rgba(94, 94, 94, 1) 99.9%, rgba(143, 143, 143, 1) 100%);
+}
+
+nav a:visited {
+  color: white;
+}
+
+/* main */
+
+main {
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 91em auto;
+  background-position: center bottom;
+  height: 33.5em;
+}
+
+main:hover {
+  cursor: pointer;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  font-weight: 100;
+  text-align: center;
+  padding: 2.6em 0 0.2em;
+  letter-spacing: -0.1em;
+}
+
+h2 {
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+  width: 26em;
+  line-height: 1.2em;
+  margin: 0 auto;
+  letter-spacing: -0.1em;
+}
+
+h3 {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 100;
+  text-align: center;
+  margin: 2em auto;
+}
+
+h3:hover {
+  text-decoration: underline;
+}
+
+/* aside */
+aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* footer */
+
+footer {
+  color: #6e6e6e;
+  font-size: 0.6em;
+  width: 100em;
+  margin: 0 auto;
+}
+
+footer div {
+  padding: 1.5em 1em;
+  display: inline-block;
+}
+
+footer img {
+  width: 1.6em;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a:visited {
+  color: #08c;
+}
+
+footer div:nth-child(2) a {
+  border-left: 1px solid #ccc;
+  padding-left: 0.5em;
+}
+
+footer div:nth-child(2) a:first-child {
+  border: none;
 }
